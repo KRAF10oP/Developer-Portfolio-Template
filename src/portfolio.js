@@ -1,4 +1,4 @@
-/* Change this file to get your personal Portfolio */
+  /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
@@ -11,26 +11,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "NotSaksh",
-  title: "Hi All, I'm Saksh",
+  username: "Youtube",
+  title: "Hi All, I'm Sachdeep",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 Having An Experience Of Building Web And Mobile Applications With JavaScript / Reactjs / Nodejs / React Native And Some Other Cool Libraries And Frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/NotSaksh",
-  linkedin: "https://www.linkedin.com/in/NotSaksh/",
-  gmail: "notsakshy@gmail.com",
-  gitlab: "https://gitlab.com/NotSaksh",
-  facebook: "https://www.facebook.com/sakshyam.baral.311/",
-  medium: "	https://medium.com/@notsakshy",
-  stackoverflow: "https://stackoverflow.com/users/696969/notsaksh",
+  github: "https://github.com/KRAF10oP",
+  linkedin: "https://www.linkedin.com/in/",
+  gmail: "sachdeepdev@gmail.com",
+  gitlab: "https://gitlab.com/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -40,7 +37,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Crazy Full Stack Developer Who Want To Learn More Programming Languages",
+  subTitle: "Crazy Full Stack Developer Who Want To Learn More Programming Languages, Also Coding Discord Bots.",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -117,11 +114,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Little Flower English School",
+      schoolName: "No.1 Air Force School",
       logo: require("./assets/images/lfes.png"),
-      subHeader: "Computer Science Student",
-      duration: "January 2020 - January 2021",
-      desc: "Participated in the Programming Challenge ",
+      subHeader: "",
+      duration: "",
+      desc: "",
       descBullets: [
         "I Love Coding In Schools's Computer",
         "Learning HTML In School 😂"
@@ -158,18 +155,12 @@ const workExperiences = {
   experience: [
     {
       role: "Front-End Developer",
-      company: "Hydrox",
+      company: "KRAF10 Developement",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2020 – May 2021",
-      desc: "Programming For Hydrox Development."
+      date: "November 2021 – January 2022",
+      desc: "Programming For KRAF10 Development."
     },
-    {
-      role: "Milrato Development",
-      company: "Milrato",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2020 – Sep 2020",
-      desc: "Programmer For Milrato Developments."
-    }
+    
   ]
 };
 
@@ -187,26 +178,16 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "Some Normal Discord Stuffs I Coded In Free Time",
   projects: [
-    {
-      image: require("./assets/images/topic.png"),
-      projectName: "Topicz",
-      projectDesc: "Topicz Is  A Discord Bot List Site!",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://topicz.xyz/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
+    
+      
     {
       image: require("./assets/images/nighthost.png"),
-      projectName: "Hydrox",
-      projectDesc: "Hydrox Is  A Discord Bot!",
+      projectName: "Minecraft Economy",
+      projectDesc: "Minecraft Economy Is A Discord Bot!",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://minecrafteconomy.tk"
         }
       ]
     }
@@ -223,18 +204,7 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-    {
-      title: "Developer Program Member",
-      subtitle:
-        "Member Of Github Programming Team Member.",
-      image: require("./assets/images/github.png"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://github.com/NotSaksh"
-        },
-      ]
-    },
+   
     {
       title: "Discord Bot Developer",
       subtitle:
@@ -243,7 +213,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Discord Server",
-          url: "https://discord.gg/7YtDujvD"
+          url: "https://discord.gg/zCPkEcyg54"
         }
       ]
     },
@@ -266,13 +236,13 @@ const blogSection = {
         "You Can Learn Coding From Diffent Sites / Videos But I Suggest To Use W3 School."
     },
     {
-      url: "https://discord.gg/7YtDujvD",
+      url: "https://discord.gg/zCPkEcyg54",
       title: "Why React Is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -291,7 +261,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/sakshyam.baral.311/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -311,14 +281,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss A Project Or Just Want To Say Hi? My Inbox Is Open For All.",
-  email_address: "notsakshy@gmail.com"
+  email_address: "sachdeepdev@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "@NotBeluga69", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "@Ag", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
